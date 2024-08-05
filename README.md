@@ -7,7 +7,6 @@ This API service module manages user scores and provides endpoints to update sco
 ## API Endpoints
 
 ### 1. Update User Score
-
 - **URL:** `/score/update`
 - **Method:** `POST`
 - **Request Data:**
@@ -16,6 +15,7 @@ This API service module manages user scores and provides endpoints to update sco
     "user_id": "string",
     "score": "number"
   }
+
 
   Successful Response (200 OK)
     {
@@ -124,3 +124,4 @@ Below is a diagram illustrating the execution flow of the module:
          |   Handle scoreUpdate event  |                           |
          | <-------------------------- |                           |
          |                           |                           |
+
